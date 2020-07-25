@@ -8,83 +8,62 @@ tap 'homebrew/bundle'
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
-brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
-brew 'gh'
 brew 'git'
 brew 'gnupg2'
 brew 'grep'
-brew 'httpie'
-brew 'hub'
+brew 'httpie' # curl replacement
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe'
-brew 'svn'
-brew 'trash' # Manage the Trash bin
-brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
 
 # Spatie Medialibrary
-brew 'jpegoptim'
-brew 'optipng'
-brew 'pngquant'
-brew 'svgo'
-brew 'gifsicle'
+#brew 'jpegoptim'
+#brew 'optipng'
+#brew 'pngquant'
+#brew 'svgo'
+#brew 'gifsicle'
 
 # Development
 brew 'php'
-brew 'php@7.3'
-brew 'php@7.2'
 brew 'composer'
-brew 'imagemagick'
-brew 'libmemcached'
-brew 'memcached'
-brew 'mysql'
-brew 'nginx'
 brew 'node'
-brew 'redis'
-brew 'yarn'
+brew 'openssl'
+brew 'tmux'
+brew 'python'
+brew 'unrar'
+brew 'wget'
+brew 'azure-cli'
 
 # Apps
 cask '1password'
 cask '1password-cli'
-cask 'aerial'
-cask 'alfred'
-cask 'bartender'
-cask 'caffeine'
-cask 'dbngin'
 cask 'discord'
 cask 'docker'
-cask 'figma'
-cask 'firefox'
-cask 'github'
+cask 'dropbox'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'gpg-suite'
-cask 'imageoptim'
-cask 'insomnia'
+cask 'intellij-idea'
+cask 'istat-menus'
+cask 'iterm2'
 cask 'java'
+cask 'karabiner-elements'
 cask 'mysqlworkbench'
-cask 'nvidia-geforce-now'
-cask 'phpstorm'
-cask 'screenflow'
+cask 'nordvpn'
+cask 'postman'
 cask 'skype'
 cask 'slack'
-cask 'steam'
+cask 'sourcetree'
 cask 'sublime-text'
 cask 'tableplus'
-cask 'telegram-desktop'
 cask 'the-unarchiver'
-cask 'tinkerwell'
-cask 'tor-browser'
-cask 'transmission'
-cask 'transmit'
+cask 'twitch'
 cask 'vagrant'
 cask 'virtualbox' # Might need to allow access in Security settings
 cask 'virtualbox-extension-pack'
-cask 'visual-studio-code'
 cask 'vlc'
 cask 'whatsapp'
 
@@ -96,6 +75,9 @@ cask 'quicklook-csv'
 cask 'qlstephen'
 
 # Fonts
+cask 'font-inconsolata'
+cask 'font-meslo-lg'
+cask 'font-meslo-for-powerline'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
@@ -105,10 +87,8 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
 mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
+mas 'Pixelmator', id: 407963104
+#mas 'NordVPN IKE', id: 1116599239
+mas 'Trello', id: 1278508951
+mas 'HP Easy Scan', id: 967004861
