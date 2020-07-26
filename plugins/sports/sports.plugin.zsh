@@ -1,17 +1,18 @@
 # sports.plugin.zsh
 
+_sports_plugin_dir="${0:h}"
+
 function prompt_sports() {
     local month=$(date "+%-m")
     local icon=""
     local bg=15
 
-    if [[ $month -lt 6 || $month -gt 8 ]]; then
-        icon="${icon}${emoji[curling]}"
+    # Show the header if configured
+    if [[ ! -z "${ZSH_PLUGIN_SPORTS_SHOW_HEADER}" ]]; then
+        p10k segment -b $bg -t 'Sports:'
     fi
 
-    if [[ $month -gt 2 && $month -lt 11 ]]; then
-        icon="${icon}${emoji[golf_green]} ${emoji[curling]}"
-    fi
-
-    p10k segment -b $bg -i $icon -t 'Sports:'
+    for s in ${ZSH_PLUGIN_SPORTS}; do
+        source "${_sports_plugin_dir}/${s}.plugin.zsh"
+    done
 }

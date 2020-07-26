@@ -81,12 +81,16 @@ HIST_STAMPS="yyyy-mm-dd"
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=$DOTFILES
 
+# Settings for sports plugin
+ZSH_PLUGIN_SPORTS_SHOW_HEADER=
+ZSH_PLUGIN_SPORTS=(golf curling)
+
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git emoji my_emoji docker-compose golf curling)
+plugins=(git emoji docker-compose sports)
 
 source $ZSH/oh-my-zsh.sh
 

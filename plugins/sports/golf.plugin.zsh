@@ -10,3 +10,5 @@ function prompt_golf() {
 
     p10k segment -i $emoji[golf_green] -b 22 -t ''
 }
+
+prompt_golf

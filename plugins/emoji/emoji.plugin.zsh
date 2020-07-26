@@ -10,5 +10,4 @@ _my_emoji_plugin_dir="${0:h}"
 
   source "$_my_emoji_plugin_dir/emoji-char-definitions.zsh"
   unset _my_emoji_plugin_dir
-
 }

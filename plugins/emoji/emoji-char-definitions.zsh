@@ -4,4 +4,5 @@
 typeset -gAH emoji
 
 emoji[curling]=$'\U1F94C'
-emoji[golf_green]=$'\U26F3\UFE0F'
+emoji[golf]=$'\U26F3\UFE0F'
+emoji[golfer]=$'\U1F3CC'

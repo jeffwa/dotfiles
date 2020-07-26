@@ -10,3 +10,5 @@ function prompt_curling() {
 
     p10k segment -i $emoji[curling] -b 15 -t ''
 }
+
+prompt_curling
