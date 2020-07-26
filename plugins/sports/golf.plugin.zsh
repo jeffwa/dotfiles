@@ -8,7 +8,7 @@ function prompt_golf() {
         return
     fi
 
-    p10k segment -i $emoji[golf_green] -b 22 -t ''
+    p10k segment -i "${emoji[golf]}" -b 22 -t ''
 }
 
 prompt_golf

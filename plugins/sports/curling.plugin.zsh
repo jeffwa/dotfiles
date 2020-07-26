@@ -8,7 +8,7 @@ function prompt_curling() {
         return
     fi
 
-    p10k segment -i $emoji[curling] -b 15 -t ''
+    p10k segment -i "${emoji[curling]}" -b 15 -t ''
 }
 
 prompt_curling

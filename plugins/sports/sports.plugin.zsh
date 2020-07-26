@@ -3,8 +3,6 @@
 _sports_plugin_dir="${0:h}"
 
 function prompt_sports() {
-    local month=$(date "+%-m")
-    local icon=""
     local bg=15
 
     # Show the header if configured
@@ -13,6 +11,7 @@ function prompt_sports() {
     fi
 
     for s in ${ZSH_PLUGIN_SPORTS}; do
+        # shellcheck source=/dev/null
         source "${_sports_plugin_dir}/${s}.plugin.zsh"
     done
 }
