@@ -23,16 +23,8 @@ pecl install memcached imagick
 # Install global Composer packages
 /usr/local/bin/composer global require
 
-# Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
-
-# Create a Sites directory
-# This is a default directory for macOS user accounts but doesn't comes pre-installed
-mkdir $HOME/Sites
-
-# Create sites subdirectories
-mkdir $HOME/Sites/blade-ui-kit
-mkdir $HOME/Sites/laravel
+# Create a dev directory
+mkdir $HOME/dev
 
 # Clone Github repositories
 ./clone.sh
