@@ -22,6 +22,5 @@ git clone git@bitbucket.org:jeffwa/jeffmclennan.com.git $WEB/jeffmclennan
 git clone git@bitbucket.org:jeffwa/sterlandrix.git $WEB/sterlandrix
 
 # COMABL
-git clone git@bitbucket.org:jeffwa/comabl.git comabl
-git clone git@bitbucket.org:jeffwa/comabl-configs comabl-configs
-git clone git@bitbucket.org:jeffwa/comabl-laravel comabl-laravel
+git clone git@bitbucket.org:jeffwa/comabl.git $WEB/comabl
+git clone git@bitbucket.org:jeffwa/comabl-configs $WEB/comabl-configs
