@@ -90,15 +90,7 @@ ZSH_PLUGIN_SPORTS=(golf curling)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-  emoji
-  sports
-  ssh-agent
-)
-
-# ssh-agent plugin config (turn on agent forwarding)
-zstyle :omz:plugins:ssh-agent agent-forwarding on
+plugins=(git emoji sports)
 
 source $ZSH/oh-my-zsh.sh
 
