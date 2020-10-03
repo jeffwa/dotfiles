@@ -39,6 +39,7 @@ brew 'wget'
 # Apps
 cask '1password'
 cask '1password-cli'
+cask 'amazon-workspaces'
 cask 'discord'
 #cask 'docker'
 cask 'dropbox'
