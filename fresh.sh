@@ -21,7 +21,7 @@ mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_passwor
 pecl install memcached imagick
 
 # Install global Composer packages
-/usr/local/bin/composer global require
+# /usr/local/bin/composer global require
 
 # Create a dev directory
 mkdir $HOME/dev
