@@ -18,7 +18,6 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'zlib' # Needed for Memcached
-brew 'svn'
 
 # Spatie Medialibrary
 #brew 'jpegoptim'
@@ -52,6 +51,7 @@ cask 'istat-menus'
 cask 'iterm2'
 #cask 'java'
 #cask 'karabiner-elements'
+cask 'keybase'
 cask 'mysqlworkbench'
 #cask 'n'
 cask 'nordvpn'
@@ -98,3 +98,4 @@ mas 'Pixelmator', id: 407963104
 #mas 'NordVPN IKE', id: 1116599239
 #mas 'Trello', id: 1278508951
 mas 'HP Easy Scan', id: 967004861
+mas 'Ka-Block!' id: 1335413823
