@@ -18,6 +18,7 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'zlib' # Needed for Memcached
+brew 'zsh'
 
 # Spatie Medialibrary
 #brew 'jpegoptim'
@@ -40,6 +41,7 @@ brew 'wget'
 cask '1password'
 cask '1password-cli'
 cask 'amazon-workspaces'
+cask 'bettertouchtool'
 cask 'discord'
 #cask 'docker'
 cask 'dropbox'

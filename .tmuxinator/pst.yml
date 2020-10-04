@@ -1,0 +1,43 @@
+# ~/.tmuxinator/pst.yml
+
+name: pst
+root: ~/
+
+# Optional tmux socket
+# socket_name:
+
+# Runs before everything. Use it to start daemons etc.
+# pre:
+
+# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
+# pre_window:
+
+# Pass command line options to tmux. Useful for specifying a different tmux.conf.
+# tmux_options:
+
+# Change the command to call tmux.  This can be used by derivatives/wrappers like byobu.
+# tmux_command:
+
+windows:
+    - vagrant:
+        - vpst
+        - vup && vssh
+    - log-php7.3:
+        - vpst
+        - sleep 120
+        - vssh
+        - sudo less +F /var/log/php7.3-fpm.log
+    - log-nginx:
+        - vpst
+        - sleep 120
+        - vssh
+        - less +F /var/log/nginx/\$app.error.log
+    - gulp:
+        - cd ~/dev/pstl5
+    - testing:
+        - cd ~/dev/pstl5
+    - mac:
+        - # blank
+    - mac2:
+        - # blank
+
