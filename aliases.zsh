@@ -32,12 +32,15 @@ alias la="$_LS -a"
 alias lh="$_LS -h"
 alias ls="$_LS"
 alias lt="$_LS -t"
-alias lll='ll|less'
-alias lhl='lh|less'
+alias lhg="lh | grep -i"
+alias lll='ll | less'
+alias lhl='lh | less'
 
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
+alias dev="cd $HOME/dev"
+alias web="cd $HOME/web"
 
 # Make mkdir always build the full path as necessary and be verbose about it
 alias mkdir="mkdir -pv"

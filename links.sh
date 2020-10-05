@@ -7,3 +7,7 @@ do
     rm -rf $HOME/$f
     ln -s $HOME/.dotfiles/$f $HOME/$f
 done
+
+# Link SSH config
+mv $HOME/.ssh/config $HOME/.ssh/config.`date +%Y%m%d%H%M%S`.bak
+ln -s $HOME/.dotfiles/.ssh/config $HOME/.ssh/config
